@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:id="@+id/gwc_lv_img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/gwc_lv_img2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/asdfgh" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gwc_lv_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/gwc_lv_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="#fc6b87"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/gwc_lv_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/coupons" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@mipmap/pledge" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gwc_lv_zi"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/gwc_lv_tv4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="购买数量"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/gwc_lv_img3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/jian" />
+
+        <TextView
+            android:id="@+id/gwc_lv_tv5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/gwc_lv_img4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/jia" />
+    </LinearLayout>
+
+</LinearLayout>
